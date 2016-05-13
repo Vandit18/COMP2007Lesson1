@@ -5,7 +5,7 @@
 <html lang="en">
 <head runat="server">
     <title></title>
-    <!-- css Section-->
+    <!-- css file Section-->
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
     <link href="Content/font-awesome.min.css" rel="stylesheet" />
