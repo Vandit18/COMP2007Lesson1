@@ -48,18 +48,18 @@
                         <asp:TextBox ID="TextBoxFN" CssClass="form-control" runat="server" required="true" CausesValidation="true"></asp:TextBox>
                     </div>
 
-                    <asp:RegularExpressionValidator ID="RegularExpressionValidatorFN" runat="server" ErrorMessage="Please Enter Charactes only" ControlToValidate="TextBoxFN" ValidationExpression="^[a-zA-Z]+$" SetFocusOnError="True"></asp:RegularExpressionValidator>
+                    <asp:RegularExpressionValidator ID="RegularExpressionValidatorFN" runat="server" ErrorMessage="Please Enter Charactes only" ControlToValidate="TextBoxFN" ValidationExpression="^[a-zA-Z]+$" SetFocusOnError="True" CssClass="alert-danger"></asp:RegularExpressionValidator>
                      <div class="form-group">
                         <asp:Label ID="LabelLN" runat="server" Text="LastName"></asp:Label>
                         <asp:TextBox ID="TextBoxLN" CssClass="form-control" runat="server" required="true" CausesValidation="true"></asp:TextBox>
                     </div>
 
-                    <asp:RegularExpressionValidator ID="RegularExpressionValidatorLN" runat="server" ErrorMessage="Please Enter Charactes only" ControlToValidate="TextBoxLN" ValidationExpression="^[a-zA-Z]+$" SetFocusOnError="True"></asp:RegularExpressionValidator>
+                    <asp:RegularExpressionValidator ID="RegularExpressionValidatorLN" runat="server" ErrorMessage="Please Enter Charactes only" ControlToValidate="TextBoxLN" ValidationExpression="^[a-zA-Z]+$" SetFocusOnError="True" CssClass="alert-danger"></asp:RegularExpressionValidator>
                      <div class="form-group">
                         <asp:Label ID="LabelAge" runat="server" Text="Age"></asp:Label>
                         <asp:TextBox ID="TextBoxAge" CssClass="form-control" runat="server" required="true" CausesValidation="true"></asp:TextBox>
                     </div>
-                    <asp:RangeValidator ID="AgeRangeValidator" runat="server" ErrorMessage="Please Enter age between 1 and 100" MaximumValue="100" MinimumValue="1" SetFocusOnError="True" ControlToValidate="TextBoxAge" Type="Integer"></asp:RangeValidator>
+                    <asp:RangeValidator ID="AgeRangeValidator" runat="server" ErrorMessage="Please Enter age between 1 and 100" MaximumValue="100" MinimumValue="1" SetFocusOnError="True" ControlToValidate="TextBoxAge" Type="Integer" CssClass="alert-danger"></asp:RangeValidator>
                     <div><asp:Button CssClass="btn btn-primary" Text="Full Name" runat="server" OnClick="Unnamed1_Click" /></div>
                      
                     <div class="form-group">
