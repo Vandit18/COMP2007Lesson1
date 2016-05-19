@@ -31,13 +31,22 @@ namespace TestFirstApplication {
         protected global::System.Web.UI.WebControls.Label LabelFN;
         
         /// <summary>
-        /// TextBox1 control.
+        /// TextBoxFN control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.WebControls.TextBox TextBoxFN;
+        
+        /// <summary>
+        /// RegularExpressionValidatorFN control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidatorFN;
         
         /// <summary>
         /// LabelLN control.
@@ -49,13 +58,22 @@ namespace TestFirstApplication {
         protected global::System.Web.UI.WebControls.Label LabelLN;
         
         /// <summary>
-        /// TextBox2 control.
+        /// TextBoxLN control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox2;
+        protected global::System.Web.UI.WebControls.TextBox TextBoxLN;
+        
+        /// <summary>
+        /// RegularExpressionValidatorLN control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidatorLN;
         
         /// <summary>
         /// LabelAge control.
@@ -74,6 +92,15 @@ namespace TestFirstApplication {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBoxAge;
+        
+        /// <summary>
+        /// AgeRangeValidator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RangeValidator AgeRangeValidator;
         
         /// <summary>
         /// LabelFullName control.

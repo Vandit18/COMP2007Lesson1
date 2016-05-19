@@ -16,7 +16,7 @@ namespace TestFirstApplication
 
         protected void Unnamed1_Click(object sender, EventArgs e)
         {
-            TextBoxFullName.Text = TextBox1.Text + " " + TextBox2.Text;
+            TextBoxFullName.Text = TextBoxFN.Text + " " + TextBoxLN.Text;
         }
     }
 }

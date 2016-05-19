@@ -45,18 +45,24 @@
 
                     <div class="form-group">
                         <asp:Label ID="LabelFN" runat="server" Text="FirstName"></asp:Label>
-                        <asp:TextBox ID="TextBox1" CssClass="form-control" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="TextBoxFN" CssClass="form-control" runat="server" required="true" CausesValidation="true"></asp:TextBox>
                     </div>
+
+                    <asp:RegularExpressionValidator ID="RegularExpressionValidatorFN" runat="server" ErrorMessage="Please Enter Charactes only" ControlToValidate="TextBoxFN" ValidationExpression="^[a-zA-Z]+$" SetFocusOnError="True"></asp:RegularExpressionValidator>
                      <div class="form-group">
                         <asp:Label ID="LabelLN" runat="server" Text="LastName"></asp:Label>
-                        <asp:TextBox ID="TextBox2" CssClass="form-control" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="TextBoxLN" CssClass="form-control" runat="server" required="true" CausesValidation="true"></asp:TextBox>
                     </div>
+
+                    <asp:RegularExpressionValidator ID="RegularExpressionValidatorLN" runat="server" ErrorMessage="Please Enter Charactes only" ControlToValidate="TextBoxLN" ValidationExpression="^[a-zA-Z]+$" SetFocusOnError="True"></asp:RegularExpressionValidator>
                      <div class="form-group">
                         <asp:Label ID="LabelAge" runat="server" Text="Age"></asp:Label>
-                        <asp:TextBox ID="TextBoxAge" CssClass="form-control" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="TextBoxAge" CssClass="form-control" runat="server" required="true" CausesValidation="true"></asp:TextBox>
                     </div>
+                    <asp:RangeValidator ID="AgeRangeValidator" runat="server" ErrorMessage="Please Enter age between 1 and 100" MaximumValue="100" MinimumValue="1" SetFocusOnError="True" ControlToValidate="TextBoxAge" Type="Integer"></asp:RangeValidator>
                     <div><asp:Button CssClass="btn btn-primary" Text="Full Name" runat="server" OnClick="Unnamed1_Click" /></div>
-                     <div class="form-group">
+                     
+                    <div class="form-group">
                         <asp:Label ID="LabelFullName" runat="server" Text="Full Name"></asp:Label>
                         <asp:TextBox ID="TextBoxFullName" CssClass="form-control" runat="server"></asp:TextBox>
                     </div>
